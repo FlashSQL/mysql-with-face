@@ -1210,7 +1210,7 @@ create_new_ssd_metadata(
     lsn_t lsn,          /*!< in: lsn */
     ulint meta_idx)     /*!< in: metadata index */
 {
-	ssd_meta_dir[meta_idx].space = space;
+    ssd_meta_dir[meta_idx].space = space;
     ssd_meta_dir[meta_idx].offset = offset;
     ssd_meta_dir[meta_idx].lsn = lsn;
 
